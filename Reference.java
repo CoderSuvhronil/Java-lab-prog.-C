@@ -1,7 +1,7 @@
 class Reference {
     int x;
 
-    void changeObject(Example obj) {
+    void changeObject(Reference obj) {
         obj.x = 20;
     }
 
